@@ -12,10 +12,10 @@ import singlylinkedlist.SNode;
  *
  * @author Administrator
  */
-public class PersonList<E> implements Person<E>{
+public class QueueList<E> implements Queue<E>{
     private SList<E> list; 
     
-    public PersonList(){
+    public QueueList(){
         list = new SList<>();
     }
     
